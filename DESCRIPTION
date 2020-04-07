@@ -1,0 +1,27 @@
+Package: fo
+Title: File Operator
+Version: 1.0
+Authors@R: 
+    c(
+    person("Jing","Zhang",role = c("aut", "cre"),email = "zj391120@163.com"),
+    person("Zhi", "Jin", role="aut")
+    )
+Description: File operation is useful and important skills in R. 'fo' package 
+    make it easy for us to do this.
+        If you want to look for some kinds of file or directory. list_doc(), 
+    list_xlsx(), list_xls(), list_txt(), list_pdf(), list_png(), list_jpg(), 
+    list_tif(), list_tiff(), list_exe(), list_R(), list_dir() will help you to 
+    look for all files or directory by your path. Functions ended with 2 can 
+    look for sub-directory files.
+        If you want to seek the lastest file in your path, functions, lastest_a(), 
+    lastest_m(), lastest_c(), will help you to seek that file by access time, 
+    modify time and change time.
+        If you want to copy, cut, delete or rename files, functions, copy(), cut_file(), 
+    delete(), rename() will help to finish that.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
+URL: https://github.com/yikeshu0611/fo
+BugReports: https://github.com/yikeshu0611/fastStat/fo
+
