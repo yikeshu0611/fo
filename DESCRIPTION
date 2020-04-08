@@ -13,7 +13,7 @@ Description: File operation is useful and important skills in R. 'fo' package
     list_tif(), list_tiff(), list_exe(), list_R(), list_dir() will help you to 
     look for all files or directory by your path. Functions ended with 2 can 
     look for sub-directory files.
-        If you want to seek the lastest file in your path, functions, lastest_a(), 
+        If you want to seek the latest file in your path, functions, lastest_a(), 
     lastest_m(), lastest_c(), will help you to seek that file by access time, 
     modify time and change time.
         If you want to copy, cut, delete or rename files, functions, copy(), cut_file(), 
@@ -24,4 +24,5 @@ LazyData: true
 RoxygenNote: 7.1.0
 URL: https://github.com/yikeshu0611/fo
 BugReports: https://github.com/yikeshu0611/fastStat/fo
-
+Imports: 
+    do
